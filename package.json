@@ -1,0 +1,37 @@
+{
+  "name": "purple-cheetah-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon src/main.ts",
+    "node-dev": "node src/main.ts",
+    "build": "tsc -p .",
+    "test": "mocha ./test --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bbanez/purple-cheetah-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bbanez/purple-cheetah-starter/issues"
+  },
+  "homepage": "https://github.com/Bbanez/purple-cheetah-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "purple-cheetah": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.7.1",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
